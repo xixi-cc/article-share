@@ -1,6 +1,12 @@
 # Article Share
 
-Literature-sharing materials organized by paper title.
+Literature-sharing materials organized by paper title. The archive website pairs every paper's canonical arXiv record with a PDF of the presentation slides.
+
+## Website
+
+[Open the Article Share archive](https://xixi-cc.github.io/article-share/)
+
+The site is a static GitHub Pages project. Edit `app.js` when adding a paper; PowerPoint presentations can be exported to PDF with `scripts/convert_slides.ps1` on Windows.
 
 ## Papers
 

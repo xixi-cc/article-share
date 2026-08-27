@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Article Share · Xixi Research Atlas</title>
+    <meta name="description" content="曹溪能的组会文献精读归档：原论文 arXiv 链接与分享幻灯片 PDF。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://xixi-cc.github.io/article-share/">
+    <meta property="og:title" content="Article Share · Xixi Research Atlas">
+    <meta property="og:description" content="组会文献精读归档：原论文 arXiv 链接与分享幻灯片 PDF。">
+    <meta property="og:image" content="https://xixi-cc.github.io/article-share/assets/og.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Article Share · Xixi Research Atlas">
+    <meta name="twitter:description" content="组会文献精读归档：原论文 arXiv 链接与分享幻灯片 PDF。">
+    <meta name="twitter:image" content="https://xixi-cc.github.io/article-share/assets/og.png">
+    <link rel="canonical" href="https://xixi-cc.github.io/article-share/">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <nav aria-label="主导航">
+            <a href="https://xixi-cc.github.io/">学术主页</a>
+            <a href="#archive">文章归档</a>
+            <a href="https://github.com/xixi-cc/article-share" target="_blank" rel="noreferrer">GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about" aria-labelledby="page-title">
+            <h1 id="page-title"><strong>Article Share</strong> <span>文献分享</span></h1>
+            <p class="role">组会精读资料</p>
+            <p class="intro-copy">
+                收录我在组内文献精读分享会上讲解过的文章与分享材料，涵盖活性物质、
+                非平衡统计物理、重整化群，以及物理与人工智能交叉方向。
+            </p>
+            <p>每篇文章提供原论文的 arXiv 页面和分享幻灯片 PDF。</p>
+        </section>
+
+        <section id="archive" aria-labelledby="archive-title">
+            <h2 id="archive-title">文章归档</h2>
+            <div class="archive-toolbar">
+                <label class="search-field">
+                    <span>搜索</span>
+                    <input id="search-input" type="search" placeholder="标题或主题" autocomplete="off">
+                </label>
+                <div id="topic-filters" class="topic-filters" role="group" aria-label="按主题筛选"></div>
+                <p id="result-count" class="result-count" aria-live="polite"></p>
+            </div>
+
+            <div id="paper-grid" class="paper-list"></div>
+            <p id="empty-state" class="empty-state" hidden>没有符合当前条件的文章。</p>
+        </section>
+    </main>
+
+    <footer>
+        <span>© 曹溪能 · Xixi Research Atlas</span>
+        <a href="https://xixi-cc.github.io/">返回学术主页</a>
+    </footer>
+
+    <template id="paper-card-template">
+        <article class="paper-row">
+            <div class="paper-meta">
+                <time class="card-date"></time>
+                <span class="card-topic"></span>
+            </div>
+            <div class="paper-content">
+                <h3 class="card-title"></h3>
+                <p class="card-note"></p>
+                <p class="card-links">
+                    <a class="arxiv-link" target="_blank" rel="noreferrer">arXiv</a>
+                    <span aria-hidden="true">·</span>
+                    <a class="slides-link" target="_blank">Slides PDF</a>
+                </p>
+            </div>
+        </article>
+    </template>
+</body>
+</html>
