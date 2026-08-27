@@ -111,9 +111,7 @@ p { margin: 0 0 16px; }
     font-size: .875rem;
 }
 
-.paper-meta span,
 .paper-meta time { display: block; }
-.paper-meta span { margin-top: 3px; }
 
 .paper-content > p {
     max-width: 900px;
