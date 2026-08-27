@@ -113,12 +113,6 @@ p { margin: 0 0 16px; }
 
 .paper-meta time { display: block; }
 
-.paper-content > p {
-    max-width: 900px;
-    margin: 8px 0 0;
-    color: var(--muted);
-}
-
 .slides-link {
     display: inline-block;
     margin-top: 8px;
