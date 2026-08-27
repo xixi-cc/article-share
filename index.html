@@ -16,7 +16,6 @@
     <meta name="twitter:image" content="https://xixi-cc.github.io/article-share/assets/og.png">
     <link rel="canonical" href="https://xixi-cc.github.io/article-share/">
     <link rel="stylesheet" href="styles.css">
-    <script src="app.js" defer></script>
 </head>
 <body>
     <header class="topbar">
@@ -35,22 +34,111 @@
                 收录我在组内文献精读分享会上讲解过的文章与分享材料，涵盖活性物质、
                 非平衡统计物理、重整化群，以及物理与人工智能交叉方向。
             </p>
-            <p>每篇文章提供原论文的 arXiv 页面和分享幻灯片 PDF。</p>
+            <p>点击文章标题前往 arXiv，点击 Slides PDF 查看分享幻灯片。</p>
         </section>
 
         <section id="archive" aria-labelledby="archive-title">
             <h2 id="archive-title">文章归档</h2>
-            <div class="archive-toolbar">
-                <label class="search-field">
-                    <span>搜索</span>
-                    <input id="search-input" type="search" placeholder="标题或主题" autocomplete="off">
-                </label>
-                <div id="topic-filters" class="topic-filters" role="group" aria-label="按主题筛选"></div>
-                <p id="result-count" class="result-count" aria-live="polite"></p>
-            </div>
+            <div class="paper-list">
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2026-06-21">2026.06.21</time><span>Statistical physics</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2202.11737" target="_blank" rel="noreferrer">Renormalization Group Flow as Optimal Transport <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>Exact renormalization-group dynamics through the geometry of optimal transport.</p>
+                        <a class="slides-link" href="Renormalization Group Flow as Optimal Transport/文献分享_20260621_Renormalization Group Flow asOptimal Transport.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
 
-            <div id="paper-grid" class="paper-list"></div>
-            <p id="empty-state" class="empty-state" hidden>没有符合当前条件的文章。</p>
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2026-04-03">2026.04.03</time><span>Machine learning</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2603.19312" target="_blank" rel="noreferrer">LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>A compact world model trained stably from pixels with a two-term objective.</p>
+                        <a class="slides-link" href="LeWorldModel Stable End-to-End Joint-Embedding Predictive Architecture from Pixels/文献汇报_20260403_leaworldmodel.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2025-12-23">2025.12.23</time><span>Machine learning</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2501.09064" target="_blank" rel="noreferrer">Generative Diffusion Model with Inverse Renormalization Group Flows <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>A coarse-to-fine generative route inspired by reversing renormalization-group flows.</p>
+                        <a class="slides-link" href="Generative Diffusion Model with Inverse Renormalization Group Flows/文献汇报_20251223_Generative diffusion model with inverse renormalization group flows.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2025-10-18">2025.10.18</time><span>Statistical physics</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2412.09677" target="_blank" rel="noreferrer">Kardar–Parisi–Zhang Scaling in Time-Crystalline Matter <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>KPZ universality emerging from the Goldstone mode of broken time-translation symmetry.</p>
+                        <a class="slides-link" href="Kardar-Parisi-Zhang Scaling in Time-Crystalline Matter/文献分享_20251018_Kardar-Parisi-Zhang Scaling in Time-Crystalline Matter.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2025-07-28">2025.07.28</time><span>Physics + AI</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2501.03948" target="_blank" rel="noreferrer">Kinetic Theory of Decentralized Learning for Smart Active Matter <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>A kinetic framework for agents that exchange policies and learn collective target states.</p>
+                        <a class="slides-link" href="Kinetic Theory of Decentralized Learning for Smart Active Matter/文献分享_20250728_Kinetic Theory of Decentralized Learning for Smart Active Matter.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2025-05-24">2025.05.24</time><span>Active matter</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2503.17064" target="_blank" rel="noreferrer">The Inconvenient Truth About Flocks <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>A careful reanalysis of scaling claims in two-dimensional polar active fluids.</p>
+                        <a class="slides-link" href="The Inconvenient Truth About Flocks/文献分享_20250524_inconvenient truth about flocks.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2025-02-16">2025.02.16</time><span>Active matter</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2410.18741" target="_blank" rel="noreferrer">Giant Density Fluctuations in Locally Hyperuniform States <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>How enhanced large-scale fluctuations coexist with local hyperuniformity.</p>
+                        <a class="slides-link" href="Giant Density Fluctuations in Locally Hyperuniform States/文献分享_20250216_giant density fluctuations in locally hyperuniform.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2024-11-24">2024.11.24</time><span>Active matter</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2410.13377" target="_blank" rel="noreferrer">Active-Hydraulic Flows Solve the 6-Vertex Model (and Vice Versa) <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>Confined active flows reveal a quantitative bridge to the six-vertex model.</p>
+                        <a class="slides-link" href="Active-Hydraulic Flows Solve the 6-Vertex Model (and Vice Versa)/文献分享_20241124_active hydrauli flows solve the 60vertex models(and vice versa).pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2024-08-31">2024.08.31</time><span>Active matter</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2103.03861" target="_blank" rel="noreferrer">Topology-Driven Ordering of Flocking Matter <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>Topological defects, domain walls, and the route toward long-range polar order.</p>
+                        <a class="slides-link" href="Topology-Driven Ordering of Flocking Matter/文献汇报_20240831_Topology-Driven Ordering of Flocking Matter.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2024-06-07">2024.06.07</time><span>Active matter</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/2112.03979" target="_blank" rel="noreferrer">An Introduction to Motility-Induced Phase Separation <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>A guided introduction to phase separation driven by persistent self-propulsion.</p>
+                        <a class="slides-link" href="An Introduction to Motility-Induced Phase Separation/文献分享_20240607_An Introduction to MIPS.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+
+                <article class="paper-row">
+                    <div class="paper-meta"><time datetime="2024-01-06">2024.01.06</time><span>Active matter</span></div>
+                    <div class="paper-content">
+                        <h3><a href="https://arxiv.org/abs/1511.01451" target="_blank" rel="noreferrer">The Physics of the Vicsek Model <span class="link-label">arXiv ↗</span></a></h3>
+                        <p>Lecture notes on the canonical model of collective motion and its universality class.</p>
+                        <a class="slides-link" href="The Physics of the Vicsek Model/文献分享_20240106_the physics of vicsek model.pdf" target="_blank">Slides PDF ↗</a>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
 
@@ -58,23 +146,5 @@
         <span>© 曹溪能 · Xixi Research Atlas</span>
         <a href="https://xixi-cc.github.io/">返回学术主页</a>
     </footer>
-
-    <template id="paper-card-template">
-        <article class="paper-row">
-            <div class="paper-meta">
-                <time class="card-date"></time>
-                <span class="card-topic"></span>
-            </div>
-            <div class="paper-content">
-                <h3 class="card-title"></h3>
-                <p class="card-note"></p>
-                <p class="card-links">
-                    <a class="arxiv-link" target="_blank" rel="noreferrer">arXiv</a>
-                    <span aria-hidden="true">·</span>
-                    <a class="slides-link" target="_blank">Slides PDF</a>
-                </p>
-            </div>
-        </article>
-    </template>
 </body>
 </html>
