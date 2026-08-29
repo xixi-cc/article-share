@@ -8,6 +8,12 @@ Literature-sharing materials organized by paper title. The archive website pairs
 
 The site is a static GitHub Pages project. Add each paper directly to `index.html`; PowerPoint presentations can be exported to PDF with `scripts/convert_slides.ps1` on Windows.
 
+After changing the archive links, regenerate the search-engine sitemap:
+
+```bash
+python3 scripts/build_sitemap.py
+```
+
 ## License and citation
 
 Original commentary, arrangement, and slide design are licensed under CC
