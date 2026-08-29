@@ -8,6 +8,14 @@ Literature-sharing materials organized by paper title. The archive website pairs
 
 The site is a static GitHub Pages project. Add each paper directly to `index.html`; PowerPoint presentations can be exported to PDF with `scripts/convert_slides.ps1` on Windows.
 
+## License and citation
+
+Original commentary, arrangement, and slide design are licensed under CC
+BY-NC 4.0; original website code is MIT-licensed. Paper text, figures, tables,
+and other third-party material are excluded. See [LICENSE.md](LICENSE.md) and
+use the presentation-specific format in [CITATION.md](CITATION.md). Always cite
+the underlying paper separately.
+
 ## Papers
 
 - [The Physics of the Vicsek Model](The%20Physics%20of%20the%20Vicsek%20Model/)
