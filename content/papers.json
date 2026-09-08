@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-06-21",
+    "title": "Renormalization Group Flow as Optimal Transport",
+    "url": "https://arxiv.org/abs/2202.11737",
+    "slides": "Renormalization Group Flow as Optimal Transport/文献分享_20260621_Renormalization Group Flow asOptimal Transport.pdf"
+  },
+  {
+    "date": "2026-04-03",
+    "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+    "url": "https://arxiv.org/abs/2603.19312",
+    "slides": "LeWorldModel Stable End-to-End Joint-Embedding Predictive Architecture from Pixels/文献汇报_20260403_leaworldmodel.pdf"
+  },
+  {
+    "date": "2025-12-23",
+    "title": "Generative Diffusion Model with Inverse Renormalization Group Flows",
+    "url": "https://arxiv.org/abs/2501.09064",
+    "slides": "Generative Diffusion Model with Inverse Renormalization Group Flows/文献汇报_20251223_Generative diffusion model with inverse renormalization group flows.pdf"
+  },
+  {
+    "date": "2025-10-18",
+    "title": "Kardar–Parisi–Zhang Scaling in Time-Crystalline Matter",
+    "url": "https://arxiv.org/abs/2412.09677",
+    "slides": "Kardar-Parisi-Zhang Scaling in Time-Crystalline Matter/文献分享_20251018_Kardar-Parisi-Zhang Scaling in Time-Crystalline Matter.pdf"
+  },
+  {
+    "date": "2025-07-28",
+    "title": "Kinetic Theory of Decentralized Learning for Smart Active Matter",
+    "url": "https://arxiv.org/abs/2501.03948",
+    "slides": "Kinetic Theory of Decentralized Learning for Smart Active Matter/文献分享_20250728_Kinetic Theory of Decentralized Learning for Smart Active Matter.pdf"
+  },
+  {
+    "date": "2025-05-24",
+    "title": "The Inconvenient Truth About Flocks",
+    "url": "https://arxiv.org/abs/2503.17064",
+    "slides": "The Inconvenient Truth About Flocks/文献分享_20250524_inconvenient truth about flocks.pdf"
+  },
+  {
+    "date": "2025-02-16",
+    "title": "Giant Density Fluctuations in Locally Hyperuniform States",
+    "url": "https://arxiv.org/abs/2410.18741",
+    "slides": "Giant Density Fluctuations in Locally Hyperuniform States/文献分享_20250216_giant density fluctuations in locally hyperuniform.pdf"
+  },
+  {
+    "date": "2024-11-24",
+    "title": "Active-Hydraulic Flows Solve the 6-Vertex Model (and Vice Versa)",
+    "url": "https://arxiv.org/abs/2410.13377",
+    "slides": "Active-Hydraulic Flows Solve the 6-Vertex Model (and Vice Versa)/文献分享_20241124_active hydrauli flows solve the 60vertex models(and vice versa).pdf"
+  },
+  {
+    "date": "2024-08-31",
+    "title": "Topology-Driven Ordering of Flocking Matter",
+    "url": "https://arxiv.org/abs/2103.03861",
+    "slides": "Topology-Driven Ordering of Flocking Matter/文献汇报_20240831_Topology-Driven Ordering of Flocking Matter.pdf"
+  },
+  {
+    "date": "2024-06-07",
+    "title": "An Introduction to Motility-Induced Phase Separation",
+    "url": "https://arxiv.org/abs/2112.03979",
+    "slides": "An Introduction to Motility-Induced Phase Separation/文献分享_20240607_An Introduction to MIPS.pdf"
+  },
+  {
+    "date": "2024-01-06",
+    "title": "The Physics of the Vicsek Model",
+    "url": "https://arxiv.org/abs/1511.01451",
+    "slides": "The Physics of the Vicsek Model/文献分享_20240106_the physics of vicsek model.pdf"
+  }
+]
