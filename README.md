@@ -1,28 +1,21 @@
-# Article Share
+# 文献精读分享
 
-Literature-sharing materials organized by paper title. The archive website pairs every paper's canonical arXiv record with a PDF of the presentation slides.
+这里收集我阅读和分享论文时整理的演示文稿，主要涉及统计物理、活性物质与物理和 AI 的交叉研究。每篇都有原论文链接和可直接阅读的幻灯片 PDF。
 
-## Website
+[浏览文献精读分享](https://xixi-cc.github.io/article-share/)
 
-[Open the Article Share archive](https://xixi-cc.github.io/article-share/)
+## 更新网站
 
-The site is a static GitHub Pages project. Add each paper to `content/papers.json` (title, date, canonical URL, and local slides PDF path); PowerPoint presentations can be exported to PDF with `scripts/convert_slides.ps1` on Windows.
-
-After changing metadata, generate the archive, README inventory, and sitemap together:
+论文信息保存在 `content/papers.json`。加入幻灯片 PDF 后，运行：
 
 ```bash
 python3 scripts/build_site.py
 ```
 
-## License and citation
+Windows 下可用 `scripts/convert_slides.ps1` 将 PowerPoint 导出为 PDF。
 
-Original commentary, arrangement, and slide design are licensed under CC
-BY-NC 4.0; original website code is MIT-licensed. Paper text, figures, tables,
-and other third-party material are excluded. See [LICENSE.md](LICENSE.md) and
-use the presentation-specific format in [CITATION.md](CITATION.md). Always cite
-the underlying paper separately.
-
-## Papers
+<details>
+<summary>已分享的论文</summary>
 
 <!-- BEGIN GENERATED PAPERS -->
 - [Renormalization Group Flow as Optimal Transport](Renormalization%20Group%20Flow%20as%20Optimal%20Transport/)
@@ -37,3 +30,7 @@ the underlying paper separately.
 - [An Introduction to Motility-Induced Phase Separation](An%20Introduction%20to%20Motility-Induced%20Phase%20Separation/)
 - [The Physics of the Vicsek Model](The%20Physics%20of%20the%20Vicsek%20Model/)
 <!-- END GENERATED PAPERS -->
+
+</details>
+
+原创解读和幻灯片设计采用 CC BY-NC 4.0，网站代码采用 MIT。原论文及其图表不在本站授权范围内。详见[许可证](LICENSE.md)和[引用说明](CITATION.md)。
