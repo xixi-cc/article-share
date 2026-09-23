@@ -18,6 +18,7 @@ Windows 下可用 `scripts/convert_slides.ps1` 将 PowerPoint 导出为 PDF。
 <summary>已分享的论文</summary>
 
 <!-- BEGIN GENERATED PAPERS -->
+- [The Mean-Field Dynamics of Transformers](The%20Mean-Field%20Dynamics%20of%20Transformers/)
 - [Renormalization Group Flow as Optimal Transport](Renormalization%20Group%20Flow%20as%20Optimal%20Transport/)
 - [LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels](LeWorldModel%20Stable%20End-to-End%20Joint-Embedding%20Predictive%20Architecture%20from%20Pixels/)
 - [Generative Diffusion Model with Inverse Renormalization Group Flows](Generative%20Diffusion%20Model%20with%20Inverse%20Renormalization%20Group%20Flows/)

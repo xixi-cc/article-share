@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-15",
+    "title": "The Mean-Field Dynamics of Transformers",
+    "url": "https://arxiv.org/abs/2512.01868",
+    "slides": "The Mean-Field Dynamics of Transformers/文献分享_20260915_The Mean-Field Dynamics of Transformers.pdf"
+  },
+  {
     "date": "2026-06-21",
     "title": "Renormalization Group Flow as Optimal Transport",
     "url": "https://arxiv.org/abs/2202.11737",
